@@ -1,0 +1,63 @@
+/* Sample CSS file */
+body
+{
+font-family:Tahoma,Arial;
+font-size:10pt;
+color: #00008b;
+margin-left:100px;
+margin-top:100px;
+margin-right:200px;
+margin-bottom:150px;
+border:4px double #660033;
+padding:25px 25px 25px 25px;
+background-image: url('earth.jpg');
+background-size: 400px 400px;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
+h1,h3,h4
+{
+  font-family: Arial, sans-serif;
+	color:#8b4513;
+
+}
+/* unvisited link */
+a:link {
+  color: blue;
+  text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+  text-decoration:none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration:underline;
+  font-size:14pt;
+}
+table 
+{
+  width:50%;
+  border: 1px solid black;
+  text-align: center; /* cel content in center of cells */
+  margin-left: auto; /* put the table vertically in the center of the page*/
+  margin-right: auto;
+  border: 1px solid black;
+}
+th, td 
+{
+  border: 1px solid black;
+}
+.par1 /* class */
+{
+	background-color:cyan;
+}
+#par2  /* id */
+{
+	background-color:lightblue;
+}
